@@ -1,0 +1,11 @@
+{
+    "clangd.arguments": [
+	"--compile-commands-dir=.",
+	"--log=verbose",
+	"--remote-index-address=localhost:50051",
+	"--project-root=/var/chris/clangd-test/"
+    ],
+    "clangd.onConfigChanged": "restart",
+    "clangd.path": "/var/tmp/llvm-15.0.3-bin/bin/clangd"
+}
+
